@@ -6,12 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Molte Grazie Restaurant</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="menu">
+    <div id="WelcomePage" class="welcome-page">
+        <div class="w-logo">
+            <svg id="Logo_Big" data-name="Logo Big" xmlns="http://www.w3.org/2000/svg" width="296.286" height="236.482" viewBox="0 0 296.286 236.482">
+                <g id="Raggruppa_8" data-name="Raggruppa 8" transform="translate(-10)">
+                  <g id="Raggruppa_6" data-name="Raggruppa 6" transform="translate(10 0)">
+                    <path id="Tracciato_15" data-name="Tracciato 15" d="M288.34,315.776c-1.8,12.138-1.575,20.115.786,24.273a3.884,3.884,0,0,1-1.462,5.394,4.607,4.607,0,0,1-2.022.56,3.931,3.931,0,0,1-3.374-2.022c-5.392-9.438-3.817-27.755,6.407-66.858-3.482,5.841-7.3,12.7-11.351,20.562-8.09,15.957-14.382,30.792-16.179,36.744a3.973,3.973,0,0,1-3.486,2.812,4.014,4.014,0,0,1-3.931-2.249c-2.471-5.28-1.912-15.507-.788-31.687.562-8.99,1.234-18.2,1.013-26.07,0-1.685-.114-3.258-.225-4.607L252.156,276c-.451,1.011-.9,2.134-1.46,3.258-1.35,3.147-3.372,7.865-5.619,13.259-4.271,10.338-9.664,23.26-14.834,34.162-2.921,6.066-5.392,10.673-7.528,14.27-2.922,4.72-5.283,7.3-7.64,8.425a3.968,3.968,0,0,1-1.575.339,3.992,3.992,0,0,1-1.685-7.64c.114,0,1.46-.9,4.383-5.731,1.91-3.372,4.381-7.865,7.077-13.485,4.947-10.677,10.226-23.26,14.5-33.374,2.247-5.506,4.271-10.226,5.731-13.484a28.809,28.809,0,0,1,1.46-3.258c1.462-3.258,2.7-6.18,3.6-8.318l.788-2.92a18.511,18.511,0,0,0-2.921-.112A16.122,16.122,0,0,0,238,265.212c-2.81,2.247-4.832,4.944-5.506,7.528-.79,2.81.11,5.057,2.81,6.966a4.12,4.12,0,0,1,1.011,5.62,3.994,3.994,0,0,1-5.619.9c-5.5-3.821-7.644-9.552-5.843-15.62,1.125-4.27,4.044-8.314,8.2-11.688a23.153,23.153,0,0,1,12.924-5.392c1.125-.112,2.247-.112,3.37-.112h.337a9.87,9.87,0,0,1,7.079,3.372c3.258,3.6,4.944,10,5.171,20.338.221,8.088-.451,17.529-1.013,26.742-.339,3.934-.562,7.755-.788,11.239,2.81-6.182,6.18-13.484,10.114-21.126,6.856-13.373,16.741-31.013,25.17-38.88a4.055,4.055,0,0,1,4.834-.56,3.947,3.947,0,0,1,1.683,4.495C294.632,284.877,290.251,302.968,288.34,315.776Z" transform="translate(-209.444 -253.413)" fill="#cd2736"/>
+                    <path id="Tracciato_16" data-name="Tracciato 16" d="M265.649,322.471a9.655,9.655,0,0,1-7.416-3.147c-3.035-3.372-3.707-8.878-2.02-15.17a35.909,35.909,0,0,1,10-16.406,3.574,3.574,0,0,1,2.921-1.125,15.206,15.206,0,0,1,4.493-6.294c6.066-5.506,10.9-4.942,13.371-4.156,3.821,1.348,6.631,4.944,7.53,9.887a25.953,25.953,0,0,1-2.136,14.5,11.1,11.1,0,0,1-.786,1.685,14.339,14.339,0,0,0,7.3-5.394,4.041,4.041,0,0,1,5.618-.562,3.941,3.941,0,0,1,.564,5.618,23.94,23.94,0,0,1-10,7.642,19.689,19.689,0,0,1-9.211,1.125,69.5,69.5,0,0,1-5.059,4.834c-4.6,3.707-8.876,5.955-12.47,6.74A26.408,26.408,0,0,1,265.649,322.471Zm3.035-25.735a28.942,28.942,0,0,0-4.832,9.44c-1.013,3.932-.56,6.742.337,7.867.227.112.674.674,2.584.335,1.575-.335,4.495-1.46,8.99-5.055.562-.564,1.236-1.011,1.8-1.573A19.842,19.842,0,0,1,268.684,296.736Zm15.058-13.146c-1.236,0-2.923.9-4.832,2.584-2.584,2.361-3.484,5.057-2.584,7.977a12.062,12.062,0,0,0,6.517,7.416c3.372-5.169,4.495-10.336,3.821-14.157-.337-1.912-1.236-3.372-2.249-3.707A1.4,1.4,0,0,0,283.742,283.59Z" transform="translate(-166.982 -232.799)" fill="#cd2736"/>
+                    <path id="Tracciato_17" data-name="Tracciato 17" d="M291.945,340.9c-2.247,0-7.642-.112-11.014-4.718-3.37-4.72-3.257-12.473.339-23.6a232.312,232.312,0,0,1,11.012-26.969,160.016,160.016,0,0,1,13.371-23.934,21.69,21.69,0,0,1,5.843-6.068c3.484-2.022,6.293-1.236,7.53-.562,2.022.9,4.381,3.26,4.607,8.766a35.748,35.748,0,0,1-2.247,12.809,76.12,76.12,0,0,1-10.561,20.789c-6.294,8.653-13.373,14.721-21.351,18.093a2.079,2.079,0,0,1-.786.223c-3.484,10.9-2.024,14.609-1.236,15.732.9,1.35,2.7,1.46,4.495,1.46h.112a14.484,14.484,0,0,0,8.092-2.92c4.381-3.147,5.843-7.3,7.975-11.574a3.845,3.845,0,0,1,5.282-1.8,3.968,3.968,0,0,1,1.8,5.394c-2.359,4.72-10.449,18.877-23.148,18.877Zm23.485-78.209a14.262,14.262,0,0,0-3.258,3.484c-6.066,8.541-13.935,24.271-19.553,38.543,10.449-7.3,17.868-20.452,21.238-30.564a28.373,28.373,0,0,0,1.8-8.878A11.913,11.913,0,0,0,315.431,262.689Z" transform="translate(-145.524 -252.577)" fill="#cd2736"/>
+                    <path id="Tracciato_18" data-name="Tracciato 18" d="M335.482,314.717a39.72,39.72,0,0,1-11.239,14.607c-5.169,4.27-10.673,6.856-15.507,7.191H307.5a12.439,12.439,0,0,1-10.9-5.955c-2.136-3.484-2.584-8.541-1.35-15.507a93.017,93.017,0,0,1,4.383-15.509,3.843,3.843,0,0,1-1.123-.112c-2.245-.225-3.147-1.462-2.921-3.709.676-4.495,4.158-3.707,7.079-3.933,4.6-11.012,10-21.124,12.924-24.947,2.357-3.033,7.3-6.854,11.012-4.269a4.774,4.774,0,0,1,1.8,5.506,15.914,15.914,0,0,1-1.908,4.046c-4.383,6.854-8.99,14.721-12.027,19.778l12.138-.339a4.032,4.032,0,0,1,4.383,3.6,4.114,4.114,0,0,1-3.6,4.383c-.676,0-6.74.449-17.417.449h-2.022a94.56,94.56,0,0,0-4.832,16.518c-1.236,6.632-.225,9.1.223,9.777.676,1.125,1.91,2.473,4.832,2.249,6.856-.564,16.408-8.653,20-16.968a4.142,4.142,0,0,1,5.282-2.136A4,4,0,0,1,335.482,314.717Z" transform="translate(-130.632 -245.721)" fill="#cd2736"/>
+                    <path id="Tracciato_19" data-name="Tracciato 19" d="M328.463,323.447c-5.169,0-12.36-2.247-15.507-8.429q-2.528-4.888-1.011-11.46c1.011-4.383,3.482-9.438,7.418-14.835q7.412-10.281,15.507-12.81c6.066-1.8,10.112.451,11.123,1.125a9.218,9.218,0,0,1,3.594,4.832,11.193,11.193,0,0,1,.453,6.405c-1.125,5.394-6.631,14.946-30.676,19.441a6.269,6.269,0,0,0,.672,3.6c1.46,2.808,5.392,4.156,8.427,4.156,6.18,0,17.194-4.381,22.251-16.292a4.041,4.041,0,0,1,5.279-2.136,3.976,3.976,0,0,1,2.138,5.171A35.063,35.063,0,0,1,344.306,318.5,30.752,30.752,0,0,1,328.463,323.447Zm11.012-40.23a9.973,9.973,0,0,0-2.359.337c-2.473.786-6.405,3.035-11.237,9.777a57.511,57.511,0,0,0-3.6,5.618c13.373-3.258,19.1-8.314,19.89-12.36a3.142,3.142,0,0,0-.562-2.923A4.314,4.314,0,0,0,339.475,283.217Z" transform="translate(-115.076 -233.214)" fill="#cd2736"/>
+                  </g>
+                  <g id="Raggruppa_7" data-name="Raggruppa 7" transform="translate(43.841 100.023)">
+                    <path id="Tracciato_20" data-name="Tracciato 20" d="M287.513,333.1c7.418-7.977,8.655-14.045,7.418-16.855-1.127-2.584-4.607-2.92-6.517-2.92-10.112,0-25.4,15.17-33.488,33.261a57.456,57.456,0,0,0-4.383,20.675c-.225,7.528,1.238,14.047,3.934,18.2a11.083,11.083,0,0,0,10,5.506c8.545,0,15.285-8.655,19.329-15.846a69.2,69.2,0,0,0,5.059-10.786c.335-.9.559-1.8.9-2.7-4.832-1.573-12.362-3.149-16.406-.786a4.043,4.043,0,0,1-5.392-1.577,3.9,3.9,0,0,1,1.458-5.39c4.271-2.473,10.226-2.922,17.642-1.236a61.179,61.179,0,0,1,9.327,2.922,3.864,3.864,0,0,1,2.247,4.72v.337c-.11.225-.11.562-.223.788a.34.34,0,0,0-.114.223c-.335,1.234-1.011,3.035-1.91,5.394a66.123,66.123,0,0,0-3.033,17.752c-.114,6.744.9,10.565,1.125,11.123a4,4,0,0,1-2.024,5.284,4.525,4.525,0,0,1-1.685.337,4.033,4.033,0,0,1-3.6-2.363c-.786-1.909-1.685-6.064-1.8-12.021a43.822,43.822,0,0,1-4.944,5.169c-4.945,4.381-10.338,6.629-15.959,6.629a18.919,18.919,0,0,1-16.629-9.1c-7.753-11.911-6.18-33.037-.112-46.522A87.752,87.752,0,0,1,265.264,317.6c5.619-5.619,14.158-12.248,23.15-12.248,6.629,0,11.688,2.81,13.82,7.753,1.46,3.37,1.46,7.642-.112,12.134a41.243,41.243,0,0,1-8.764,13.373,4.036,4.036,0,0,1-5.619.223A4.184,4.184,0,0,1,287.513,333.1Z" transform="translate(-242.594 -305.351)" fill="#cd2837"/>
+                    <path id="Tracciato_21" data-name="Tracciato 21" d="M296.119,375.523c-4.271,0-6.517-1.909-7.642-3.594q-2.022-2.869-1.348-7.418a32.242,32.242,0,0,1,3.486-10.224c2.022-4.16,3.147-7.079,2.808-9.1-.225-1.125-.9-2.812-4.832-5.394-3.033,6.74-8.092,17.64-8.316,18.2a4.022,4.022,0,0,1-7.3-3.37c.11-.225,6.405-13.71,9.213-20a13.279,13.279,0,0,1-.9-1.8,7.671,7.671,0,0,1,.449-6.294c1.575-2.92,4.722-4.158,7.3-2.92,1.009.447,3.26,1.91,3.035,5.841a13.323,13.323,0,0,1-.451,2.81c5.957,3.6,8.878,7.191,9.664,11.461.786,4.608-1.236,9.329-3.482,14.049-3.484,7.079-2.812,9.325-2.7,9.664.112.112.451.225,1.462.112h.225c5.843-.337,14.047-6.966,19.1-15.281a4.007,4.007,0,0,1,5.506-1.35,3.9,3.9,0,0,1,1.348,5.394,47.541,47.541,0,0,1-11.237,12.81c-4.83,3.932-9.775,6.07-14.274,6.4h-1.121Z" transform="translate(-214.794 -288.888)" fill="#cd2837"/>
+                    <path id="Tracciato_22" data-name="Tracciato 22" d="M304.151,373.593a11.326,11.326,0,0,1-8.543-3.709,11.6,11.6,0,0,1-2.92-9.44c.56-5.955,4.383-12.021,7.416-16.181a62.769,62.769,0,0,1,12.134-12.248c6.856-4.942,15.283-6.18,20.452-2.921,3.372,2.136,4.834,5.845,3.932,10.226a3.9,3.9,0,0,1-4.046,3.149,5.541,5.541,0,0,1,2.249,2.02c1.123,2.473.112,5.394-3.484,10a28.28,28.28,0,0,1-2.361,2.81c-.449,1.238-1.009,2.471-1.348,3.6-.562,2.246-.562,3.149-.449,3.484a2.856,2.856,0,0,0,1.234.112c5.618,0,11.125-5.281,16.855-16.179a4,4,0,1,1,7.081,3.707c-3.6,6.852-7.3,11.8-11.125,15.169a18.707,18.707,0,0,1-12.81,5.281c-4.6,0-6.852-1.91-7.977-3.6a13.456,13.456,0,0,1-.9-2.245c-4.607,3.707-9.773,6.74-14.829,6.966Zm21.687-38.318a15.75,15.75,0,0,0-8.878,3.256c-6.4,4.61-15.732,15.509-16.4,22.588a4.281,4.281,0,0,0,.9,3.37,3.15,3.15,0,0,0,2.92,1.123c4.724-.223,11.915-6.064,17.756-12.583.337-.672.564-1.236.9-1.91l.672-1.46a21.544,21.544,0,0,1,2.588-4.607c1.46-1.91,2.92-2.81,4.6-2.81h.339a4.145,4.145,0,0,1-2.471-4.495c.339-1.464-.114-1.8-.449-1.91A4.715,4.715,0,0,0,325.837,335.275Z" transform="translate(-196.308 -285.046)" fill="#cd2837"/>
+                    <path id="Tracciato_23" data-name="Tracciato 23" d="M327.264,401.113a12.221,12.221,0,0,1-6.294-1.573,11.112,11.112,0,0,1-5.394-10.563c.451-5.955,4.72-11.351,11.351-14.159,6.968-2.921,13.259-5.62,18.544-8.876a21.923,21.923,0,0,0-6.858-7.193,3.793,3.793,0,0,1-1.8-3.821,4.105,4.105,0,0,1,2.584-3.258c5.731-2.022,9.664-5.845,10.563-10.449.447-2.7-.223-5.281-2.024-6.742a1.941,1.941,0,0,0-2.022-.453c-3.932,1.013-10.786,8.429-14.831,18.653a3.986,3.986,0,1,1-7.418-2.92,55.286,55.286,0,0,1,8.655-14.834c2.694-3.257,6.852-7.414,11.684-8.651a9.825,9.825,0,0,1,9.1,2.134,14.839,14.839,0,0,1,4.6,14.384,19.336,19.336,0,0,1-4.832,9.552,27.3,27.3,0,0,1-4.83,3.932,31.369,31.369,0,0,1,3.819,4.834c0,.112.114.112.114.221A34.734,34.734,0,0,0,361.2,349.76a4.02,4.02,0,0,1,7.191,3.6,47.693,47.693,0,0,1-13.261,15.73,28.729,28.729,0,0,1,.453,4.5c0,5.957-2.586,14.833-14.723,22.7C335.243,399.989,330.636,401.113,327.264,401.113Zm20.227-27.081a159.992,159.992,0,0,1-17.531,8.2c-4.493,1.908-6.292,4.942-6.4,7.3a3.616,3.616,0,0,0,1.348,3.145c1.8,1.013,5.731.786,11.576-3.033C343.56,385.044,347.266,379.652,347.491,374.032Z" transform="translate(-175.043 -286.272)" fill="#cd2837"/>
+                    <path id="Tracciato_24" data-name="Tracciato 24" d="M352.149,379.653a15.98,15.98,0,0,1-5.843-1.125,11.667,11.667,0,0,1-5.5-5.169c-3.827-7.3.221-19.327,12.47-36.633a3.975,3.975,0,0,1,5.618-.9,3.935,3.935,0,0,1,.9,5.5c-14.268,20.117-12.7,26.857-11.909,28.431.9,1.685,3.257,1.91,4.27,1.91,7.193,0,12.248-8.429,15.17-15.508a4.029,4.029,0,0,1,7.416,3.147c-2.923,6.856-6.4,12.023-10.338,15.507A18.782,18.782,0,0,1,352.149,379.653Zm11.46-53.039a4.046,4.046,0,0,1-2.247-.676,3.951,3.951,0,0,1-1.685-3.258,4.731,4.731,0,0,1,.674-2.359l.225-.225.339-.562a4.115,4.115,0,0,1,5.618-1.009,3.962,3.962,0,0,1,1.009,5.506l-.447.674-.114.225A4.005,4.005,0,0,1,363.609,326.614Z" transform="translate(-152.959 -293.802)" fill="#cd2837"/>
+                    <path id="Tracciato_25" data-name="Tracciato 25" d="M369.409,374.159c-5.165,0-12.362-2.247-15.5-8.429q-2.528-4.888-1.013-11.46c1.013-4.383,3.484-9.438,7.416-14.835q7.418-10.278,15.507-12.808c6.07-1.8,10.112.449,11.127,1.123a9.222,9.222,0,0,1,3.594,4.834,11.144,11.144,0,0,1,.449,6.405c-1.123,5.394-6.629,14.946-30.676,19.437a6.285,6.285,0,0,0,.674,3.6c1.462,2.81,5.394,4.158,8.427,4.158,6.18,0,17.2-4.385,22.249-16.294a4.046,4.046,0,0,1,5.284-2.134,3.972,3.972,0,0,1,2.134,5.167,35.035,35.035,0,0,1-13.821,16.294A30.757,30.757,0,0,1,369.409,374.159Zm11.012-40.23a9.8,9.8,0,0,0-2.359.339c-2.473.786-6.405,3.035-11.237,9.775a58.512,58.512,0,0,0-3.6,5.62c13.375-3.259,19.1-8.318,19.888-12.36a3.14,3.14,0,0,0-.558-2.923A4.3,4.3,0,0,0,380.421,333.929Z" transform="translate(-141.006 -286.286)" fill="#cd2837"/>
+                  </g>
+                  <path id="Tracciato_26" data-name="Tracciato 26" d="M238.763,371.489" transform="translate(-182.3 -144.097)" fill="none" stroke="#1a1818" stroke-miterlimit="10" stroke-width="1"/>
+                  <path id="Tracciato_27" data-name="Tracciato 27" d="M242.729,388.179s26.52-22.688,74.933-20.41c33.309,1.566,58.09,18.237,90.53,18.237,43,0,91.237-28.818,91.237-28.818" transform="translate(-198.629 -157.337)" fill="none" stroke="#cd2736" stroke-linecap="round" stroke-miterlimit="10" stroke-width="8"/>
+                </g>
+              </svg>
+              
+        </div>
+        <div class="w-text">Welcome to <b>Our Restaurant</b>.<br>
+            We love <b>good food</b>, <b>top wines</b> and <b>jazz music</b>.</div>
+        <div class="w-button">
+            <button  class="send-order" onclick="goToMenu()">
+                Check to Menù <svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="13.549" viewBox="0 0 16.5 13.549">
+                    <g id="Iconly_Light-Outline_Arrow---Left" data-name="Iconly/Light-Outline/Arrow---Left" transform="translate(20 19.049) rotate(180)">
+                      <g id="Arrow---Left" transform="translate(20 5.5) rotate(90)">
+                        <path id="Combined-Shape" d="M6.774,0a.75.75,0,0,1,.743.648l.007.1V13.934l4.744-4.763a.75.75,0,0,1,1.135.974l-.072.084-6.024,6.05a.751.751,0,0,1-.124.1l-.041.024-.037.02-.056.024-.043.016-.056.016-.04.008-.06.008-.046,0H6.745l-.044,0,.073,0a.753.753,0,0,1-.139-.013L6.6,16.48c-.023-.005-.044-.011-.066-.019L6.5,16.45c-.023-.009-.044-.018-.065-.029l-.03-.016-.048-.029-.033-.024-.009-.007a.75.75,0,0,1-.075-.066h0L.218,10.229A.75.75,0,0,1,1.2,9.1l.084.073,4.743,4.761V.75A.75.75,0,0,1,6.774,0Z" fill="#fff"/>
+                      </g>
+                    </g>
+                  </svg>
+                  
+            </button>
+        </div>
+    </div>
+    <div id="Menu" class="menu" style="display: none;">
         <div class="menu-header">
 
             <div class="grid-header">
@@ -40,6 +81,7 @@
                     </div>
                 </div>
                 <div class="logo">
+                    <button onclick="HideBackBtn()">
                     <svg id="Logo_Nav_Bar" data-name="Logo Nav Bar" xmlns="http://www.w3.org/2000/svg" width="116.227" height="93.377" viewBox="0 0 116.227 93.377">
                         <g id="Raggruppa_264" data-name="Raggruppa 264">
                           <g id="Raggruppa_263" data-name="Raggruppa 263">
@@ -60,6 +102,7 @@
                         </g>
                         <path id="Tracciato_113" data-name="Tracciato 113" d="M304.95,393.6s8.342-8.111,28.136-8.1c17.229.013,22.227,7.053,35.733,7.315,16.33.317,36.858-11.254,36.858-11.254" transform="translate(-291.493 -302.34)" fill="none" stroke="#bf0e28" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" fill-rule="evenodd"/>
                     </svg>  
+                </button>
                 </div>
                 <div class="order-list">
                     <div id="numDish" style="display:none;"></div>
@@ -77,12 +120,42 @@
             <div class="main-home">
                 <div class="first-row">
                     <div class="tit-cont">
-                        <div id="TitRes" class="tit-res">Category Plates</div>
+                        <div id="TitRes" class="tit-res">Category Dishes</div>
                     </div>
-                    <div id="ContCaTBox" class="cont-cat-box">
+                    <div  class="cont-slider">
+                        <div id="ContCaTBox" class="slider">
+
+                        </div>
                        
                     </div>
                 </div>
+                <div id="rand2" class="second-row">
+                    <div class="tit-cont">
+                        <div id="TitRes" class="tit-res">Traditional Dishes</div>
+                    </div>
+                    <div  class="cont-slider">
+                        <div class="cont-random-dish">
+                            <div id="TradDish" >
+
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div id="rand3" class="third-row">
+                    <div class="tit-cont">
+                        <div id="TitRes" class="tit-res">Dishes of the day</div>
+                    </div>
+                    <div  class="cont-slider">
+                        <div class="cont-random-dish">
+                            <div id="DayDish">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
 
 
             </div>
@@ -95,17 +168,96 @@
 
                 </div>
             </div>
+ 
         </div>
         <div id="theBill" class="the-bill">
-            <div id="OrderBill"class="order-bill">
+            
+            <div id="OrderBill" class="order-bill">
+                <button id="closeBill" onclick="HideBill()"> X </button>
                 <div class="tit-bill">Your order:</div>
                 <div id="Order" class="oder"></div>
                 <div id="Bill" class="bill"></div>
+                <button id="sendOrder" class="send-order" onclick="submitOrder()">
+                    <div class="label-send"> Send Order <svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="13.549" viewBox="0 0 16.5 13.549">
+                        <g id="Iconly_Light-Outline_Arrow---Left" data-name="Iconly/Light-Outline/Arrow---Left" transform="translate(16.5 13.549) rotate(180)">
+                          <g id="Arrow---Left" transform="translate(16.5 0) rotate(90)">
+                            <path id="Combined-Shape" d="M6.775,0a.75.75,0,0,1,.743.648l.007.1V13.934l4.744-4.763a.75.75,0,0,1,1.135.974l-.072.084-6.024,6.05a.751.751,0,0,1-.124.1l-.041.024-.037.02-.056.024-.043.016-.056.016-.04.008-.06.008-.046,0H6.746l-.044,0,.073,0a.753.753,0,0,1-.139-.013L6.6,16.48c-.023-.005-.044-.011-.066-.019L6.5,16.45c-.023-.009-.044-.018-.065-.029l-.03-.016-.048-.029-.033-.024-.009-.007a.75.75,0,0,1-.075-.066h0L.219,10.229A.75.75,0,0,1,1.2,9.1l.084.073,4.743,4.761V.75A.75.75,0,0,1,6.775,0Z" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                      
+                    </div>
+                </button>
+            </div>
+
+            <div id="orderSend"  class="order-bill" style="display:none;">
+                <button id="closeBill" onclick="HideBill()"> X </button>
+                <div class="tit-bill">Wonderfull!</div>
+                <div class="message-order">
+                    Your <b>order</b> is in <b>preparation</b>.<br>
+                    We look forward to making you taste our <b>exquisite dishes</b>.
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="225" height="225" viewBox="0 0 225 225">
+                        <image id="NoPath_-_Copia_30_" data-name="NoPath - Copia (30)" width="225" height="225" xlink:href="data:image/jpeg;base64,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"/>
+                      </svg>
+
+                      
+                </div>
+                <button id="backMenu" class="send-order" onclick="backMenu()">
+                Back to Menù <svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="13.549" viewBox="0 0 16.5 13.549">
+                    <g id="Iconly_Light-Outline_Arrow---Left" data-name="Iconly/Light-Outline/Arrow---Left" transform="translate(11.5 -6.5)">
+                      <g id="Arrow---Left" transform="translate(5 6.5) rotate(90)">
+                        <path id="Combined-Shape" d="M6.774,0a.75.75,0,0,1,.743.648l.007.1V13.934l4.744-4.763a.75.75,0,0,1,1.135.974l-.072.084-6.024,6.05a.751.751,0,0,1-.124.1l-.041.024-.037.02-.056.024-.043.016-.056.016-.04.008-.06.008-.046,0H6.745l-.044,0,.073,0a.753.753,0,0,1-.139-.013L6.6,16.48c-.023-.005-.044-.011-.066-.019L6.5,16.45c-.023-.009-.044-.018-.065-.029l-.03-.016-.048-.029-.033-.024-.009-.007a.75.75,0,0,1-.075-.066h0L.218,10.229A.75.75,0,0,1,1.2,9.1l.084.073,4.743,4.761V.75A.75.75,0,0,1,6.774,0Z" fill="#fff"/>
+                      </g>
+                    </g>
+                  </svg>
+                   </button>
+            </div>
+
+
+
+            <div id="ComingWaiter"  class="order-bill" style="display:none;">
+                <button id="closeBill" onclick="HideBill()"> X </button>
+                <div class="tit-bill">We're coming...</div>
+                <div class="message-order">
+                    Our waiters have received your <b>recommendation</b>.<br>
+<b>As soon as possible</b> they will be at your table
+to <b>accommodate your requests</b>..<br>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177" height="177" viewBox="0 0 177 177">
+                        <image id="NoPath_-_Copia_31_" data-name="NoPath - Copia (31)" width="177" height="177" xlink:href="data:image/jpeg;base64,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"/>
+                      </svg>
+                      
+
+                      
+                </div>
+                <button  class="send-order" onclick="backMenu()">
+                Back to Menù <svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="13.549" viewBox="0 0 16.5 13.549">
+                    <g id="Iconly_Light-Outline_Arrow---Left" data-name="Iconly/Light-Outline/Arrow---Left" transform="translate(11.5 -6.5)">
+                      <g id="Arrow---Left" transform="translate(5 6.5) rotate(90)">
+                        <path id="Combined-Shape" d="M6.774,0a.75.75,0,0,1,.743.648l.007.1V13.934l4.744-4.763a.75.75,0,0,1,1.135.974l-.072.084-6.024,6.05a.751.751,0,0,1-.124.1l-.041.024-.037.02-.056.024-.043.016-.056.016-.04.008-.06.008-.046,0H6.745l-.044,0,.073,0a.753.753,0,0,1-.139-.013L6.6,16.48c-.023-.005-.044-.011-.066-.019L6.5,16.45c-.023-.009-.044-.018-.065-.029l-.03-.016-.048-.029-.033-.024-.009-.007a.75.75,0,0,1-.075-.066h0L.218,10.229A.75.75,0,0,1,1.2,9.1l.084.073,4.743,4.761V.75A.75.75,0,0,1,6.774,0Z" fill="#fff"/>
+                      </g>
+                    </g>
+                  </svg>
+                </button>
             </div>
         </div>
 
-
-
+        <div id="callWaiter" class="call-waiter">
+            <div class="label-waiter">Call Waiter</div>
+            <button class="list-icon" onclick="callWaiter()">
+                
+                <div class="icon-single-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                        <g id="Iconly_Light-Outline_Chat" data-name="Iconly/Light-Outline/Chat" transform="translate(43 41)">
+                          <g id="Chat" transform="translate(-43 -41)">
+                            <path id="Combined-Shape" d="M8,0A8,8,0,0,1,13.66,13.66a8.037,8.037,0,0,1-9.03,1.6,2.664,2.664,0,0,0-.823-.246,3.226,3.226,0,0,0-.89.224c-.651.223-1.461.5-2.06-.1s-.322-1.405-.1-2.055a3.2,3.2,0,0,0,.222-.9,2.615,2.615,0,0,0-.251-.845,8.027,8.027,0,0,1,1.615-9A7.946,7.946,0,0,1,8,0ZM8,1.117A6.838,6.838,0,0,0,3.133,3.133,6.918,6.918,0,0,0,1.753,10.9,3.515,3.515,0,0,1,2.1,12.192a4.025,4.025,0,0,1-.281,1.261c-.109.319-.273.8-.167.905s.587-.062.907-.171A4.065,4.065,0,0,1,3.8,13.9a3.459,3.459,0,0,1,1.27.337,6.889,6.889,0,0,0,7.8-11.107A6.838,6.838,0,0,0,8,1.117ZM10.94,7.566a.744.744,0,1,1-.007,0Zm-2.984,0a.744.744,0,1,1-.007,0Zm-2.985,0a.744.744,0,1,1-.007,0Z" transform="translate(0)" fill="#cd2736" fill-rule="evenodd"/>
+                          </g>
+                        </g>
+                      </svg>
+                                       
+                </div>
+            </button>
+        </div>
+    </div>    
     <script src="js/script.js"></script>
 </body>
 </html>
